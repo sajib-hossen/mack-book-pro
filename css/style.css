@@ -1,0 +1,60 @@
+/* heading area design  */
+.heading h1 {
+    font-size: 30px;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+/* memroy section design  */
+.memory {
+    margin: 10px 0px;
+}
+.memory h3 {
+    text-transform: capitalize;
+    margin: 10px 0;
+}
+/* Storage  section design  */
+.storage {
+    margin: 10px 0px;
+}
+.storage h3 {
+    text-transform: capitalize;
+    margin: 10px 0;
+}
+/* Delivery  section design  */
+.delivery {
+    margin: 10px 0px;
+}
+.delivery h3 {
+    text-transform: capitalize;
+    margin: 10px 0;
+}
+
+/* price summery area  */
+.best-price {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    margin: 10px 0;
+}
+.best-price h4 {
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 500;
+}
+.sub {
+    border-bottom: 3px solid gray;
+}
+.tottal {
+    border: 0;
+    margin-bottom: 40px;
+}
+
+/* footer area design */
+.footer {
+    text-align: center;
+    border-top: 1px solid gray;
+    padding-top: 10px;
+}
+.footer h1{
+    text-transform: capitalize;
+}

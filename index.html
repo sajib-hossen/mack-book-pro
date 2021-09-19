@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- title here -->
+    <title>Mack Book pro</title>
+    <!-- bootstrap css  -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- main css file -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- main area start  -->
+    <main>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="mac-book-image">
+                            <img src="img/mac.png" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col">
+
+                        <!-- memory area  -->
+                        <div class="memory">
+                            <h3>memory</h3>
+                            <div class="memory-btn">
+                                <button id="8gb-memory">8GB unified memory</button>
+                                <button id="16gb-memory">16GB unified memory</button>
+                            </div>
+                        </div>
+                         <!-- storage area  -->
+                        <div class="storage">
+                            <h3>storage</h3>
+                            <div class="storage-btn">
+                                <button id="256gb-storage" >256GB SSD Storage</button>
+                                <button id="512gb-storage">512GB SSD Storage</button>
+                                <button id="1tb-storage">1TB SSD Storage</button>
+                            </div>
+                        </div>
+                        <!-- delivery area  -->
+                        <div class="delivery">
+                            <h3>Choose your delivery option</h3>
+                            <div class="deliver-btn">
+                                <button id="free-delivery">Friday,Aug 25 FREE prime Delivery</button>
+                                <button id="paid-delivery">Friday,Aus 21 Delivery Charge $20</button>
+                            </div>
+                        </div>
+
+                        <!-- summery area  -->
+                        <div class="summary">
+                            <div class="best-price">
+                                <h4>best Price</h4>
+                                <h4>$<span id="extra-price">1299</span></h4>
+                            </div>
+                            <div class="best-price">
+                                <h4>extra memory cost</h4>
+                                <h4>$<span id="extra-memory">0</span></h4>
+                            </div>
+                            <div class="best-price">
+                                <h4>extra storage cost</h4>
+                                <h4>$<span id="extra-storage">0</span></h4>
+                            </div>
+                            <div class="best-price sub">
+                                <h4>Delivey cost</h4>
+                                <h4>$<span id="extra-delivery">0</span></h4>
+                            </div>
+                            <div class="best-price tottal">
+                                <h4>total price</h4>
+                                <h4>$<span id="total-price">1299</span></h4>
+
+                            </div>
+                            <!-- promo code area  -->
+                            <div class="pro-code">
+                                <h5>Add promo code</h5>
+                                <div class="input-group mb-3">
+                                    <input id="promo-input" type="text" class="form-control" placeholder="Write your Promo code">
+                                    <button class="btn btn-outline-secondary bg-primary text-white" type="button"
+                                        id="promo-btn">Apply</button>
+                                        <div>
+                                            <p id="falid" style="display: none;">Sorry you didn't apply discount price</p>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- main area end -->
+    <!-- footer area start  -->
+    <footer class="footer">
+        <h1>total : $<span id="final-sum">1299</span></h1>
+    </footer>
+
+    <!-- main js file -->
+    <script src="js/app1.js"></script>
+</body>
+
+</html>
